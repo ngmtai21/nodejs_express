@@ -12,6 +12,7 @@ app.use('/static', express.static(__dirname + '/public'));
 
 var controller = require(__dirname + '/apps/controllers');
 const port = 3000;
+c
 
 app.use(controller);
 
